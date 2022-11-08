@@ -37,7 +37,7 @@
   font-size: medium;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.5);
-  margin-left: 30px;
+  margin-left: 20px;
   text-align: left;
 }
 
@@ -45,6 +45,46 @@
   margin: 5px;
   font-size: medium;
   font-weight: normal;
-  margin-left: 30px;
+  margin-left: 20px;
   text-align: left;
+}
+
+.Free ul {
+  list-style-type: none;
+  margin: 20px;
+  padding: 0;
+  text-align: left;
+  margin-left: 20px;
+  font-size: 0.7em;
+  font-weight: 400;
+}
+
+.Free li {
+  margin: 15px 0px;
+}
+
+.Free button {
+  width: 350px;
+  display: inline-block;
+  border: solid 2px #5B4DEE;
+  border-radius: 0.6em;
+  padding: 1rem 2rem;
+  margin: 5px 20px 20px 20px;
+  text-decoration: none;
+  background: white;
+  color: black;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1;
+  cursor: pointer;
+  text-align: center;
+}
+
+.Free button:hover {
+  background-color: #5B4DEE;
+  color: white;
+}
+
+.disabled {
+  color: rgba(0, 0, 0, 0.2);
 }
