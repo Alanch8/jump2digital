@@ -1,6 +1,6 @@
 <div id="top"></div>
 
-# Propuesta solución hackaton Jump2Digital 2022 (Barcelona)
+# Propuesta solución hackathon Jump2Digital 2022 (Barcelona)
 
 He decidido usar "create-react-app" ya que el proyecto se puede desarrollar en una página estática.
 
