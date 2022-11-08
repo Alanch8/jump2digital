@@ -59,7 +59,7 @@
   padding: 0;
   text-align: left;
   margin-left: 20px;
-  font-size: 0.7em;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -138,7 +138,7 @@
   padding: 0;
   text-align: left;
   margin-left: 20px;
-  font-size: 0.7em;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -217,7 +217,7 @@
   padding: 0;
   text-align: left;
   margin-left: 20px;
-  font-size: 0.7em;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -233,8 +233,8 @@
   padding: 1rem 2rem;
   margin: 5px 20px 20px 20px;
   text-decoration: none;
-  background: white;
-  color: black;
+  background: #5b4dee;
+  color: white;
   font-size: 1rem;
   font-weight: bold;
   line-height: 1;
@@ -243,6 +243,256 @@
 }
 
 .Teams button:hover {
-  background-color: #5b4dee;
-  color: white;
+  background-color: white;
+  color: black;
+  border: solid 2px #5b4dee;
+}
+
+/* MEDIA QUERY */
+
+@media (min-width: 1000px) {
+  .Cards {
+    background-color: #e5e5e5;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: rgb(0, 0, 0);
+    padding: 30px;
+  }
+
+  /* Free */
+
+  .Free {
+    border-radius: 0.6em;
+    margin: 10px 0;
+  }
+
+  .Free img {
+    width: 80px;
+    margin: 30px 0 0 0;
+  }
+
+  .Free h2 {
+    margin: 5px;
+    font-size: 26px;
+    font-weight: Bold;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Free h4 {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Free h3 {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Free ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .Free li {
+    margin: 15px 0px;
+  }
+
+  .Free button {
+    width: 250px;
+    display: inline-block;
+    border: solid 2px #5b4dee;
+    border-radius: 0.6em;
+    padding: 1rem 2rem;
+    margin: 5px 20px 20px 20px;
+    text-decoration: none;
+    background: white;
+    color: black;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .Free button:hover {
+    background-color: #5b4dee;
+    color: white;
+  }
+
+  .disabled {
+    color: rgba(0, 0, 0, 0.2);
+  }
+
+  /* Pro */
+
+  .Pro {
+    background-color: #5b4dee;
+    border: solid black;
+    border-radius: 0.6em;
+    margin: 10px 0;
+  }
+
+  .Pro img {
+    width: 200px;
+    margin: 30px 0 0 0;
+  }
+
+  .Pro h2 {
+    margin: 5px;
+    font-size: 26px;
+    font-weight: Bold;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Pro h4 {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Pro h3 {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Pro ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .Pro li {
+    margin: 15px 0px;
+  }
+
+  .Pro button {
+    width: 250px;
+    display: inline-block;
+    border: solid 2px black;
+    border-radius: 0.6em;
+    padding: 1rem 2rem;
+    margin: 5px 20px 20px 20px;
+    text-decoration: none;
+    background: black;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .Pro button:hover {
+    background-color: black;
+    color: #5b4dee;
+  }
+
+  .disabled-pro {
+    color: rgba(255, 255, 255, 0.6);
+  }
+
+  /* Teams */
+
+  .Teams {
+    background-color: white;
+    border: solid #dae9ef;
+    border-radius: 0.6em;
+    margin: 10px 0;
+  }
+
+  .Teams img {
+    width: 200px;
+    margin: 30px 0 0 0;
+  }
+
+  .Teams h2 {
+    margin: 5px;
+    font-size: 26px;
+    font-weight: Bold;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Teams h4 {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    color: rgba(0, 0, 0, 0.5);
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Teams h3 {
+    margin: 5px;
+    font-size: 10px;
+    font-weight: normal;
+    margin-left: 20px;
+    text-align: left;
+  }
+
+  .Teams ul {
+    list-style-type: none;
+    margin: 20px;
+    padding: 0;
+    text-align: left;
+    margin-left: 20px;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .Teams li {
+    margin: 15px 0px;
+  }
+
+  .Teams button {
+    width: 250px;
+    display: inline-block;
+    border: solid 2px #5b4dee;
+    border-radius: 0.6em;
+    padding: 1rem 2rem;
+    margin: 5px 20px 20px 20px;
+    text-decoration: none;
+    background: #5b4dee;
+    color: white;
+    font-size: 1rem;
+    font-weight: bold;
+    line-height: 1;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .Teams button:hover {
+    background-color: white;
+    color: black;
+    border: solid 2px #5b4dee;
+  }
 }
